@@ -18,7 +18,7 @@ class PhotoUploadView(CreateView):
         :param form:
         :return:
         """
-        form.instance.author_id = self.request.id
+        form.instance.author_id = self.request.user.id
         if form.is_valid():  # 유효성 검사
             form.instance.save()
             return redirect('/')

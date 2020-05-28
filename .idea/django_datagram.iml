@@ -4,7 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/django_datagram" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.8 (django_datagram)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (django_datagram)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
